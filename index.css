@@ -1,0 +1,79 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Roboto;
+}
+main{
+   background-image: url(" file:///C:/Users/kamil/Downloads/подложка%201.svg "   );
+}
+
+.container{
+    max-width: 1320px;
+   position: relative;
+}
+header{
+   background: linear-gradient(270deg, rgba(46, 49, 146, 0.70) 0%, rgba(212, 20, 90, 0.70) 98.16%);
+   width: 1489px;
+height: 77px;
+
+}
+
+.icon{
+   color: white;
+   width: 50px;
+  height: 20px
+  
+  
+ 
+  
+ 
+}
+.icon::after{
+   content: "+375 29 292-29-29 (VEL) ";
+   color: #FFF;
+
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 9.5px;
+margin-left: 10px;
+margin-bottom: -3px;
+}
+.mts{
+   position: absolute;
+   right: 70%;
+  bottom: -3px;
+ 
+   font-family: Roboto;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 9.5px;
+   margin-left: 3px;
+ color: #FFF;
+
+
+}
+.location{
+   position: absolute;
+   right: 50%;
+}
+
+.mesto span{
+   position: absolute;
+   right: 43%;
+   color: #FFF;
+   align-items: center;
+   font-size: 15px;
+}
+.mesto{
+   margin-bottom:19px ;
+   
+}
+ .media span{
+   color: #FFF;
+   margin-left: 6px;
+  
+ }
